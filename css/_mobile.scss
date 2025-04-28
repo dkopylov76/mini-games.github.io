@@ -1,0 +1,175 @@
+@media (max-width: 768px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header {
+        overflow: hidden;
+        height: 700px;
+        &__content {
+            padding-top: 147px;
+            align-items: center;
+        }
+        &__h1 {
+            width: 262px;
+            font-size: 40px;
+            line-height: 49px;
+            text-align: center;
+        }
+        &__text {
+            padding-bottom: 36px;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            width: 296px;
+        }
+        &__button1 {
+            display: none;
+        }
+        &__button2 {
+            display: flex;
+            width: 285px;
+            height: 55px;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgb(32, 32, 39);
+            border-radius: 60px;
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            background: rgb(32, 32, 39);
+            transition: background 1s;
+            &:hover {
+                background: rgb(255, 255, 255);
+                color: rgb(32, 32, 39);
+            }
+        }
+        &__bottom {
+            width: 1717.4px;
+            height: 51.34px;
+            margin-top: 107px;
+            gap: 27px;
+            left: 0px;
+            &-text {
+                font-size: 16px;
+                text-align: left;
+            }
+        }
+        &__img {
+            &-1 {
+                display: none;
+            }
+            &-2 {
+                position: absolute;
+                width: 35px;
+                height: 35px;
+                left: calc(50% - 151px);
+                top: 97px;
+            }
+            &-3 {
+                position: absolute;
+                width: 21px;
+                height: 21px;
+                left: calc(50% - 97px);
+                top: 64px;
+            }
+            &-4 {
+                position: absolute;
+                width: 39px;
+                height: 41px;
+                right: calc(50% - 154px);
+                top: 580px;
+            }
+            &-5 {
+                position: absolute;
+                width: 18px;
+                height: 18px;
+                right: calc(50% - 102px);
+                top: 557px;
+            }
+            &-6 {
+                display: block;
+                position: absolute;
+                right: calc(50% - 275px);
+                top: -80px;
+            }
+            &-7 {
+                width: 1800px;
+                height: 52px;
+                top: calc(100% - 53px);
+                left: calc(50% - 900px);
+            }
+        }
+    }
+    .games {
+        display: none;
+    }
+    .minigames {
+        &__h1 {
+            padding-top: 48px;
+            padding-bottom: 48px;
+            font-size: 40px;
+            line-height: 49px;
+        }
+        &__cards {
+            gap: 24px;
+            align-items: center;
+        }
+        &__card {
+            max-width: 343px;
+            width: 100%;
+            flex-direction: column-reverse;
+            &-left {
+                display: flex;
+                flex-direction: column;
+                padding: 29px;
+                &-name {
+                    width: 285px;
+                    font-size: 32px;
+                    line-height: 39px;
+                    text-align: left;
+                    padding-bottom: 16px;
+                }
+                &-text {
+                    width: 285px;
+                    font-size: 16px;
+                    line-height: 20px;
+                    padding-bottom: 32px;
+                }
+                &-button {
+                    width: 285px;
+                    height: 55px;
+                    font-size: 16px;
+                }
+            }
+            &-right {
+                &-img {
+                    max-height: 285px;
+                }
+            }
+        }
+        &__img {
+            &-1 {
+                display: none;
+            }
+            &-2 {
+                display: none;
+            }
+            &-3 {
+                display: none;
+            }
+            &-4 {
+                display: none;
+            }
+        }
+    }
+    .footer {
+        height: 100px;
+        &__text {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+    }
+}
